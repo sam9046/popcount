@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/js/popcount.js",
     "test": "jasmine"
   },
   "author": "Sam Cackett",
