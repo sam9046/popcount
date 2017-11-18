@@ -1,0 +1,14 @@
+{
+  "name": "popcount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Sam Cackett",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
