@@ -14,6 +14,19 @@ const Maxsum = function() {
         }
         return max;
     }
+
+    this.sumArrayLinear = function(value) {
+        if(value.length === 0) {
+            return 0;
+        }
+        var sum = value[0];
+        var max = sum;
+        for(var i = 1; i < value.length; i++) {
+            sum = Math.max(value[i], sum + value[i]);
+            max = Math.max(max, sum);
+        }
+        return max;
+    }
 }
 
 module.exports = Maxsum;
